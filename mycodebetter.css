@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montez&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sacramento&display=swap');
+
+
+
+/* header part css styling */
+
+.header-container{
+    height: 50px;
+    /* background-color:rgb(176, 252, 249) ; */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    background-color: #D2E8DB;
+    
+
+   
+}
+@keyframes navbar-animation{
+    0%{margin-top: -200px;}
+    100%{margin-top: 0px;}
+}
+
+
+.header1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    animation: navbar-animation 1.5s;
+    
+
+}
+@keyframes navbar-animation{
+    0%{margin-top: -200px;}
+    100%{margin-top: 0px;}
+}
+.header2{
+    width: 50%;
+    height: 100%;
+    display: inline;
+    animation: navbar-animation 1.5s;
+    
+
+}
+@keyframes navbar-animation{
+    0%{margin-top: -200px;}
+    100%{margin-top: 0px;}
+}
+   
+
+
+.header1 h4{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    color: black;
+    display: inline;
+}
+.header1 p{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    color: black;
+    display: inline;
+    margin-top: 10px;
+    margin-left: 4px;
+    
+}
+
+
+.header2 h4{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    color: black;
+    display: inline;
+}
+.header2 p{
+    font-family:"Montserrat", sans-serif;
+    font-size: 15px;
+    color: black;
+    display: inline;
+}
+
+.header2-jr-1{
+    width: 200px;
+    height: 50%;
+    display: inline;
+    text-align: center;
+    
+   
+}
+.header2-jr-2{
+    width: 600px;
+    height: 50%;
+    display: inline;
+    text-align: left;
+    
+   
+}
+.header2-jr-1 img{
+    width: 16px;
+    height: 16px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    
+}
+
+
+
+
+
+.header2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    margin-left: 100px;
+    justify-content: flex-start;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* navbar css styling */
+
+
+
+
+.navbar-big-box{
+    padding: 0px 0px;
+}
+
+.navbar-container{
+    display: flex; 
+    align-items: center;
+    align-content: space-between;
+    background-color:#FFF3F2;
+    height: 80px;
+    flex-direction: row;
+    padding: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    width: 1440px;
+    position: relative;
+    padding-top: 40px;
+    padding-bottom: 30px;
+   
+    
+
+}
+
+
+
+.junior1{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    margin-right: 250px;
+    margin-left: 20px;
+    padding-top: 10px;
+    width: 15%;
+}
+
+.junior2{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: row;
+    font-family:"Montserrat", sans-serif;
+    height: 100%;
+    color: #555;
+    font-weight: 600;
+    font-size: 14px;
+    width: 85%;
+    
+    
+
+}
+
+
+.junior2-items{
+    margin-right: 30px;
+}
+
+
+.enquiry-div{
+    width: 200px;
+    display: inline;
+    background-color: #ffffff;
+    position: absolute;
+    right: -300px;
+}
+
+.enquiry-button{
+    border-radius: 0px;
+    width: 183px;
+    height: 61px;
+    background-color:#fff3f2 ;
+    /* color: #FF8071; */
+    color: #202020;
+    border: 0px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.enquiry-button:hover{
+    background-color: #31645E;
+    color: #ffffff;
+
+}
+
+
+
+
+
+/* home page css styling */
+
+
+
+.home-page-box1{
+    width: 1440px;
+    height: 750px;
+    background-color: #FFF3F2;
+    position: relative;
+
+}
+.home-page-box1 img{
+    position: absolute;
+    right: -300px;
+    top: 150px;
+    width: 650px;
+    height: 450px;
+    
+}
+
+.home-page-box2{
+    position: absolute;
+    background-color: #fff3f2;
+    top: 200px;
+    left: 100px;
+    width: 950px;
+    height: 500px;
+}
+
+.home-page-box2 h1{
+    font-family:"Playfair Display", serif;
+    font-size:65px;
+    color: #222222;
+    display: inline;
+    margin-top:10px;
+    animation: animation1 2s;
+    animation-timing-function: ease-in-out;
+}
+@keyframes animation1{
+    0%{margin-left: -2000px;}
+    100%{margin-left: 0px;}
+}
+#h1-2{
+    color: #5bb9a9;
+    display: inline;
+    animation: animation1 0s;
+}
+ @keyframes animation1{
+    0%{margin-left: -500px;}
+    100%{margin-left: 0px;}
+ }
+.home-page-box2 h5{
+    font-family:  "Sacramento", cursive ;
+    font-size: 50px;
+    color: #FF8071;
+    margin-bottom: 10px;
+    animation: animation1 2s;
+    animation-timing-function: ease-in-out;
+   
+}
+@keyframes animation1{
+    0%{margin-left: -500px;}
+    100%{margin-left: 0px;}
+}
+
+.courses-button{
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    border-radius: 0px;
+    background-color: #ffe4aa;
+    width:183px ;
+    height: 50px;
+    text-transform: uppercase;
+    border: 0px;
+    display: block;
+    margin-top: 50px;
+
+   
+}
+.courses-button:hover{
+    color: #ffffff;
+    background-color: #31645E;
+    
+   
+}
+
+
+
+.welcome-pathway h1{
+    font-family: "Playfair Display", serif;
+    font-size: 60px;
+    color: #222222;
+    text-align: center;
+}
+
+.welcome-pathway h3{
+    font-family: "Montserrat", sans-serif;
+    font-size: 40px;
+    color: #ecc87a;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-paragraph p{
+    font-family: "montserrat", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: justify;
+    
+}
+
+
+.content-headings{
+    font-family: "montserrat",sans-serif;
+    font-size: 25px;
+    display: inline;
+}
+.contents{
+    font-family: "montserrat",sans-serif;
+    font-size: 20px;
+    display: inline;
+}
+
+
+.main-box{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 1000px;
+
+}
+.main-paragraph{
+    width: 1400px;
+    height: 100px;
+    text-align: justify;
+    margin-top: 50px;
+    
+}
+.python-data-science{
+    width: 1400px;
+    height: 100px;
+    text-align: justify;
+    margin-top: 30px;
+    
+}
+.training-and-placement{
+    width: 1400px;
+    height: 130px;
+    text-align: justify;
+    margin-top: 30px;
+
+
+    
+}
+.power-bi-data{
+    width: 1400px;
+    height: 90px;
+    text-align: justify;
+   
+    margin-top: 30px;
+
+    
+}
+.ios-application{
+    width: 1400px;
+    height: 100px;
+    text-align: justify;
+    
+    margin-top: 30px;
+
+    
+}
+
+
+
+
+
+
+
+
+/* codebetters top courses section css */
+
+
+.the-black-background{
+    background-image: url(worls-map-white-dots-black-background.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-content:center ;
+    align-items:center;
+    position: relative;
+}
+
+.the-black-background img{
+    width: 80px;
+    height: 80px;
+    margin-left: 90px;
+    
+}
+
+.the-black-background h3{
+    font-family: "montserrat", serif;
+    font-size: 25px;
+    color: #ffffff;
+    margin-top: 20px;
+    text-align: center;
+
+}
+.the-black-background p{
+    font-family:"roboto", sans-serif;
+    font-size:15px;
+    color: #868585;
+    text-align: justify;
+    font-weight: 300;
+    margin-top: 20px;
+    
+}
+
+
+.card-css{
+    width: 300px;
+    height: 350px;
+    display: inline-flex;
+    background-color: #161616;
+    margin-right:70px;
+    
+    
+}
+
+.details-button-1{
+    font-family: "montserrat",serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: black;
+    border-radius: 0px;
+    background-color: #ffe4aa;
+    width:183px ;
+    height: 50px;
+    text-transform: uppercase;
+    border: 0px;
+    display: block;
+    margin-top: 50px;
+
+}
+.details-button-1:hover{
+    color: #ffffff;
+    background-color: #31645E;
+}
+
+.codebetters-top-courses h1{
+    font-family: "montserrat",serif;
+    font-size: 50px;
+    color: #aae3fc;
+    
+}
+.codebetters-top-courses{
+    display: block;
+    position: absolute;
+    top: 50px;
+}
+
+.details-button{
+    position: absolute;
+    bottom: 70px;
+    left: 820px;
+}
+
+
+.card-css1{
+    width: 300px;
+    height: 350px;
+    display: inline-flex;
+    background-color: #161616;
+    margin-right:70px;
+    
+    
+    
+}
+.card-css1:hover{
+    border: 1px solid #FFE4AA;
+}
+
+.card-css2{
+    width: 300px;
+    height: 350px;
+    display: inline-flex;
+    background-color: #161616;
+    margin-right:70px;
+    
+    
+}
+.card-css2:hover{
+    border: 1px solid #C6E7F5; 
+ 
+
+}
+.card-css3{
+    width: 300px;
+    height: 350px;
+    display: inline-flex;
+    background-color: #161616;
+    margin-right:70px;
+    
+    
+    
+}
+.card-css3:hover{
+    border: 1px solid #8C8691;
+}
+.card-css4{
+    width: 300px;
+    height: 350px;
+    display: inline-flex;
+    background-color: #161616;
+    margin-right:70px;
+    
+    
+    
+}
+.card-css4:hover{
+    border: 1px solid #648D88;
+}
+ 

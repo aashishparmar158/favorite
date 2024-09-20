@@ -1,0 +1,46 @@
+
+h1{
+    text-align: center;
+    color: hwb(331 25% 9%);
+    font-size:100px;
+    font-family:Magneto ;
+    margin-bottom: 0px;
+}
+body{
+    background-color: rgb(158, 230, 248);
+    text-align: center;
+    
+}
+a{
+    margin-right:180px ;
+    color: black;
+    text-decoration: none;
+    font-size:20px
+}
+h2{
+    margin-bottom: 50px;
+}
+main{
+    text-align: left;
+    font-size: 25px;
+    margin-right: 200px;
+    margin-left: 200px;
+    font-family: Bahnschrift;
+
+}
+h3{
+    font-size:40px;
+    font-family:'Times New Roman', Times, serif ;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+hr{
+    width: 100px;
+    align-items: center;
+    color: rgb(0, 0, 0);
+    height: 5px;
+    text-decoration: solid;
+
+    
+}
